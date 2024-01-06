@@ -1,0 +1,67 @@
+
+.main
+{
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   padding: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.bg-video
+{  
+   object-fit: cover;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9)
+{
+   .bg-video
+   {
+      width: 100%;
+      height: auto;
+   }
+}
+
+@media (max-aspect-ratio:16/9)
+{
+   .bg-video
+   {
+      width: auto;
+      height: 100%;
+   }
+}
+
+.Login-div
+{
+   height: 300px;
+   width: 500px;
+   padding: 0px;
+   background-color: rgb(60, 60, 60);
+   opacity: 99%;
+   
+}
+
+.login-text
+{
+   height: 150px;  
+}
+
+.h1
+{
+   color: rgba(255, 255, 255, 0.648);
+}
+
+.login-credentials
+{
+   margin-right: 10px;
+   margin-left:  10px;
+}
+
+
